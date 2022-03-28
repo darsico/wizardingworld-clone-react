@@ -1,3 +1,5 @@
+import '../assets/css/estilos.css';
+
 const LastestNews = ({LastestNewsData}) => {
 
     return (

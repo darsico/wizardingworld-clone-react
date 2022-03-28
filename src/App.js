@@ -34,7 +34,7 @@ function App() {
       />
 
       <MagicalFeatures/>
-      
+
       <div className='footer'>
         <Footer/>
       </div>
