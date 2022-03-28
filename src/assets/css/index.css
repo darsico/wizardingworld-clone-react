@@ -1,0 +1,129 @@
+@import url("../fonts/fonts.css");
+@import url("./footer.css");
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --responsive-width: min(90%, 1250px);
+  --primary-font-900: "sofia_problack";
+  --primary-font-700: "sofia_probold";
+  --primary-font-500: "sofia_prosemi_bold";
+  --primary-font-400: "sofia_promedium";
+  --primary-font-300: "sofia_prolight";
+  --primary-font-200: "sofia_proextra_light";
+  --accent-font-bold: "bluu_nextbold";
+  --accent-font-titling: "bluu_nexttitling";
+  --alternative-accent-font: "masonsans_regular";
+  --primary-purple: #6b63b5;
+  --primary-purple-hover: #514a92;
+  --primary-white: #ffff;
+  --main-background: #10141b;
+  --main-background-light: #242633;
+}
+
+.body {
+  font-family: var(--primary-font-500), sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #10141b;
+}
+.clear-theme {
+  background-color: white;
+
+}
+/* Slider section */
+
+/* Blog section */
+
+.blog-section {
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.audio {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.audio-container {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+.audio__img {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  width: 905.66px;
+  height: 509.42px;
+}
+
+.audio__text {
+  position: absolute;
+  left: 800px;
+  width: 50%;
+  float: left;
+  padding: 20px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.audio__text-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 42px;
+  color: #f9f4f2;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.audio__text-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  color: #f9f4f2;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.audio__button {
+  width: 220px;
+  height: 42px;
+  background-color: #6b63b5;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 40px;
+  animation: growUp 1s;
+  transition: ease-in;
+  border: 0;
+  animation-timing-function: ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width:1024px) {
+  .clear-theme {
+      margin-top: 136px;
+  }
+}
