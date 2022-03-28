@@ -1,4 +1,4 @@
-# Wizarding World Clone en React ⚡👓🏰🧙‍♂ - Reto 8 & 9
+# Wizarding World Clone - React ⚡👓🏰🧙‍♂ - Reto 8 & 9
 
 El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la landing page de la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
 
