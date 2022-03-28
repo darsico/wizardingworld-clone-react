@@ -1,20 +1,19 @@
 # Wizarding World Clone en React ⚡👓🏰🧙‍♂ - Reto 8 & 9
 
-El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
+El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la landing page de la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
 
-Para comenzar, encontrarás un Header interactivo con diversas secciones, en las que puedes navegar y te direccionarán a nuevas páginas, como "News" & "Features". Podrás enterarte de las últimas novedades o leer artículos de interés allí. Así también, cuenta con una sección llamada "Discover" con cinco subcategorías, donde verás cards con información y fotografías sobre libros, películas, experiencias, entre otros datos de interés. 
-En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 3 actividades a realizar, ingresa a la biblioteca de personajes donde podrás averiguar a que casa de Hogwarts perteneció cada personaje del universo HP y Animales Fantásitcos. Además, te presentamos un generador mágico de hechizos.
-No olvides realizar el test de casas de Hogwarts ¡Pon a prueba tus conocimientos!
+Para comenzar, encontrarás un Header con botones de secciones como "News" & "Features". Así también, cuenta con una sección llamada "Discover" con cinco subcategorías sobre libros, películas, experiencias, entre otros datos de interés. 
+En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 3 actividades a realizar: Quizzes, Personajes y Hechizos.
 
-Al seguir navegando en la landing page, tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards de la sección "Blogs" y a la vez, podrás enterarte de las últimas noticias o datos mágicos a través de otras secciones que cuentan con cards y/o un splide con información.
-
+Al seguir navegando en la landing page, te encontrarás con un carrousel, construido con splide (js), una sección de "Lastests News", "Magical Features" y "Blogs", donde tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards. Finalmente, se cuenta con un footer con información de contacto y el resumen de secciones presentadas.
+       
 ¿Vas a perderte esta nueva experiencia mágica?
-
+       
 [![logo.png](https://i.postimg.cc/LXdQ94j6/logo.png)](https://postimg.cc/mcwyVsd0)
 
 ## Introducción
-
-El repositorio contiene los archivos
+      
+El repositorio contiene los archivos..........
 
 ## Vistas del proyecto
 
