@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Wizarding World Clone en React ⚡👓🏰🧙‍♂ - Reto 8 & 9
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
 
-## Available Scripts
+Para comenzar, encontrarás un Header interactivo con diversas secciones, en las que puedes navegar y te direccionarán a nuevas páginas, como "News" & "Features". Podrás enterarte de las últimas novedades o leer artículos de interés allí. Así también, cuenta con una sección llamada "Discover" con cinco subcategorías, donde verás cards con información y fotografías sobre libros, películas, experiencias, entre otros datos de interés. 
+En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 3 actividades a realizar, ingresa a la biblioteca de personajes donde podrás averiguar a que casa de Hogwarts perteneció cada personaje del universo HP y Animales Fantásitcos. Además, te presentamos un generador mágico de hechizos.
+No olvides realizar el test de casas de Hogwarts ¡Pon a prueba tus conocimientos!
 
-In the project directory, you can run:
+Al seguir navegando en la landing page, tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards de la sección "Blogs" y a la vez, podrás enterarte de las últimas noticias o datos mágicos a través de otras secciones que cuentan con cards y/o un splide con información.
 
-### `npm start`
+¿Vas a perderte esta nueva experiencia mágica?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![logo.png](https://i.postimg.cc/LXdQ94j6/logo.png)](https://postimg.cc/mcwyVsd0)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introducción
 
-### `npm test`
+El repositorio contiene los archivos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Vistas del proyecto
 
-### `npm run build`
+### Vista pantalla completa en laptop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Vista responsive en mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Módulo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este proyecto corresponde a la octava y novena semana del módulo de Frontend.
 
-### `npm run eject`
+### Temas vistos para el presente reto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React 
+Javascript 
+HTML
+CSS
+UX/UI
+Github Colaborativo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Todos los derechos reservados.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribuciones
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" para poder utilizar y contribuir con el proyecto. Se recomienda el uso del proyecto únicamente para fines académicos y educativos. Prohibido su uso para fines comerciales.
 
-## Learn More
+## Autores
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Cerpa Salas, Valeria**
+- **Diez Silva, Gino**
+- **Huamán Lazo, Diego**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licencia
 
-### Code Splitting
+Este proyecto contiene una licencia MIT - ver el archivo adjunto en el repositorio para conocer los detalles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Agradecimientos
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Profesor Elliot Garamendi, por la enseñanza
+- Fundación Es Hoy y CODIGO, por la oportunidad de formarnos en desarrollo web.
