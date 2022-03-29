@@ -4,6 +4,8 @@ import Blog from "./components/Blog";
 import LastestNews from "./components/LastestNews";
 import MagicalFeatures from "./components/MagicalFeatures";
 import Hero from "./components/Hero";
+import Searcher from "./components/Searcher";
+import Splide from "./components/Splide";
 
 const LastestNewsData = [
   {
@@ -31,9 +33,15 @@ function App() {
         <Hero />
       </div>
 
+      <Splide />
+
       <LastestNews LastestNewsData={LastestNewsData} />
 
       <MagicalFeatures />
+
+      <div className="searcher">
+        <Searcher />
+      </div>
 
       <div className="blog">
         <Blog />

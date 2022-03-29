@@ -15,23 +15,17 @@ const Hero = () => {
           </p>
           <div className="hero__message-pages-container">
             <div className="hero__message-button-container">
-              <a href="./quizzes/quizzes.html" className="hero__message-page-button hero__message-page-button--active">
+              <a href="" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Quizz</button>
               </a>
             </div>
             <div className="hero__message-button-container">
-              <a
-                href="https://vcerpasalas.github.io/wizzardingworld-clone/apis/potter-characters-api/index.html"
-                className="hero__message-page-button hero__message-page-button--active"
-              >
+              <a href="" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Personajes</button>
               </a>
             </div>
             <div className="hero__message-button-container">
-              <a
-                href="./apis/potter-hechizos-api/index.html"
-                className="hero__message-page-button hero__message-page-button--active"
-              >
+              <a href="" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Hechizos</button>
               </a>
             </div>

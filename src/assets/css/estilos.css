@@ -1,7 +1,7 @@
 /* Lastests News */
 
 .lastest-news {
-  margin: 1rem 0 8rem 0;
+  margin: 5rem 0 8rem 0;
   color: white;
 }
 
@@ -148,7 +148,7 @@
 
 @media (min-width: 854px) {
   .lastest-news {
-    margin: 1rem 0 0 0;
+    margin: 5rem 0 0 0;
   }
 
   .lastest-news__container {
