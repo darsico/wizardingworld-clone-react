@@ -25,7 +25,7 @@ const Blog = () => {
           <h2 className="blog__subtitle">Revive una experiencia inolvidable</h2>
           <p className="blog__paragraph">
             Conocida por diversas generaciones de magos y brujas a través de los años. Puedes escuchar la conocida
-            melodía del universo de Harry Potter aquí. Disfruta de tu estadía en Wizzarding World.
+            melodía del universo de Harry Potter aquí. Disfruta de tu estadía en Wizarding World.
           </p>
           <p className="blog__button">
             <a className="audio__button-container">

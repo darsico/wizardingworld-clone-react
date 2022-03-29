@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Blog from "./components/Blog";
 import LastestNews from "./components/LastestNews";
 import MagicalFeatures from "./components/MagicalFeatures";
+import Hero from "./components/Hero";
 
 const LastestNewsData = [
   {
@@ -26,6 +27,10 @@ const LastestNewsData = [
 function App() {
   return (
     <div className="body">
+      <div className="hero-component">
+        <Hero />
+      </div>
+
       <LastestNews LastestNewsData={LastestNewsData} />
 
       <MagicalFeatures />
