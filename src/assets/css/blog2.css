@@ -163,3 +163,7 @@
     padding-left: 25px;
   }
 }
+
+.blog__title {
+  color: white;
+}
