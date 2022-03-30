@@ -10,15 +10,10 @@ const Hero = () => {
           <h2 className="hero__message-title">Wizarding World</h2>
           <h2 className="hero__message-subtitle">Juega nuestro nuevo concurso: Edición Animales Fantásticos</h2>
           <p className="hero__message-paragraph">
-            ❤ Haz el Quizz y gana puntos para tu casa. Averigua la casa de los personajes del universo Harry Potter y
-            Animales Fantásticos. Encuentra hechizos en nuestro generador de hechizos mágico ¡Buena suerte! ❤
+            ❤ Averigua la casa de los personajes del universo de Harry Potter y Animales Fantásticos. Descubre todos los
+            hechizos en nuestro generador de hechizos mágico ¡Buena suerte! ❤
           </p>
           <div className="hero__message-pages-container">
-            <div className="hero__message-button-container">
-              <a href="" className="hero__message-page-button hero__message-page-button--active">
-                <button className="hero__message-button-animate">Quizz</button>
-              </a>
-            </div>
             <div className="hero__message-button-container">
               <a href="" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Personajes</button>
