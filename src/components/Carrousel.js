@@ -6,7 +6,7 @@ const Carrousel = () => {
   return (
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel__title">
-        <h2 class="form__title">¿Reconoces estas escenas?</h2>
+        <h2 class="form__title">👓⚡ ¿Reconoces estas escenas? ⚡👓</h2>
       </div>
       <div class="carousel-indicators">
         <button

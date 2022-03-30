@@ -208,6 +208,9 @@
   }
 
   .lastest-news__paragraph {
+    margin-top: 160px;
+    font-family: "sofia_prosemi_bold", sans-serif;
+    font-size: 20px;
     max-width: 100%;
   }
 
@@ -307,8 +310,9 @@
     height: 310px;
   }
   .magical-features__text {
-    padding: 9.5rem 0.8rem 0.5rem 0.8rem;
-    font-size: 2.2rem;
+    font-family: "sofia_prosemi_bold", sans-serif;
+    padding: 13.5rem 0.8rem 0 0.8rem;
+    font-size: 2rem;
     margin: 0;
     transition: all 0.5s;
   }
