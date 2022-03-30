@@ -27,7 +27,10 @@
   position: relative;
   overflow-x: hidden;
   background-color: #10141b;
+  margin-top: 136px;
 }
+
+
 .clear-theme {
   background-color: white;
 
@@ -116,10 +119,6 @@
   transition: ease-in;
   border: 0;
   animation-timing-function: ease-in-out;
-}
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 @media (min-width:1024px) {
