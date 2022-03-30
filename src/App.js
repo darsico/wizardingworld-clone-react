@@ -6,6 +6,7 @@ import MagicalFeatures from "./components/MagicalFeatures";
 import Hero from "./components/Hero";
 import Searcher from "./components/Searcher";
 import Carrousel from "./components/Carrousel";
+import Characters from "./components/Characters";
 
 const LastestNewsData = [
   {

@@ -16,6 +16,11 @@ const Hero = () => {
           <div className="hero__message-pages-container">
             <div className="hero__message-button-container">
               <a href="" className="hero__message-page-button hero__message-page-button--active">
+                <button className="hero__message-button-animate">Quizzes</button>
+              </a>
+            </div>
+            <div className="hero__message-button-container">
+              <a href="" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Personajes</button>
               </a>
             </div>
