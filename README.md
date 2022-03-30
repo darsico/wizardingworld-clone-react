@@ -5,7 +5,7 @@ El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos 
 Para comenzar, encontrarás un Header con botones de secciones como "News" & "Features". Así también, cuenta con una sección llamada "Discover" con cinco subcategorías sobre libros, películas, experiencias, entre otros datos de interés.
 En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 2 actividades a realizar: Descubriendo Personajes y Hechizos.
 
-Al seguir navegando en la landing page, te encontrarás con un carrousel en el que pondrás a prueba tu conocimiento de escenas de las películas, una sección de "Lastests News", "Magical Features" y "Blogs", donde tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards. Finalmente, se cuenta con un footer con información de contacto y el resumen de secciones presentadas.
+Al seguir navegando en la landing page, te encontrarás con un carrousel que te recordarán escenas de las películas de Harry Potter, así como secciones de "Lastests News", "Magical Features" y "Blogs", donde tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards. Finalmente, se cuenta con un footer con información de contacto y el resumen de secciones presentadas.
 
 ¿Vas a perderte esta nueva experiencia mágica?
 
