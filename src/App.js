@@ -6,7 +6,8 @@ import MagicalFeatures from "./components/MagicalFeatures";
 import Hero from "./components/Hero";
 import Searcher from "./components/Searcher";
 import Carrousel from "./components/Carrousel";
-import Characters from "./components/Characters";
+
+import { translations } from "./utils/translations";
 
 const LastestNewsData = [
   {
@@ -26,7 +27,7 @@ const LastestNewsData = [
     paragraph: "Harry Potter: Magic Awakened prepares for worldwide launch in 2022",
   },
 ];
-
+const { BUTTON, DESCRIPTION } = translations;
 function App() {
   return (
     <div className="body">
@@ -45,7 +46,7 @@ function App() {
       </div>
 
       <div className="blog">
-        <Blog />
+        <Blog buttonText={BUTTON} description={DESCRIPTION} />
       </div>
 
       <div className="footer">
