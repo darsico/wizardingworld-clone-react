@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../assets/css/header.css";
 import logo from "../assets/images/header/logo.svg";
+import submenuDecoration from "../assets/images/header/submenu-bottom-decoration.svg";
 
 import MenuIcon from "./MenuIcon";
 import Navbar from "./Navbar";
@@ -33,26 +34,20 @@ const Header = () => {
         </a>
         <button className="header__button-login">login</button>
       </nav>
-      <div className="sub-menu__wrapper" id="discover-desktop-wrapper">
+      {/* <div className="sub-menu__wrapper" id="discover-desktop-wrapper">
         <div className="sub-menu__inner-wrapper">
           <div className="sub-menu__container" id="submenu-container-discover" />
-          <figure className="sub-menu__bottom-decoration-container">
-            <img src="./images/header/submenu-bottom-decoration.svg" alt="" className="sub-menu__bottom-decoration" />
-          </figure>
+          <figure className="sub-menu__bottom-decoration-container"></figure>
         </div>
       </div>
       <div className="sub-menu__wrapper" id="news-features-desktop-wrapper">
         <div className="sub-menu__inner-wrapper">
           <div className="sub-menu__container" id="submenu-container-news-features" />
           <figure className="sub-menu__bottom-decoration-container">
-            <img
-              src="./images/header/submenu-bottom-decoration.svg"
-              alt="Decoración de submenu"
-              className="sub-menu__bottom-decoration"
-            />
+            <img src={submenuDecoration} alt="Decoración de submenu" className="sub-menu__bottom-decoration" />
           </figure>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

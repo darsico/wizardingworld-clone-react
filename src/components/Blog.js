@@ -27,9 +27,9 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onClick={playSound()}>
-                Escuchar ahora
-              </button>
+              {/* <button type="button" className="audio__button" onClick={playSound()}> */}
+              Escuchar ahora
+              {/* </button> */}
             </a>
           </p>
         </div>

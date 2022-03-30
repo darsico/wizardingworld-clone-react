@@ -46,9 +46,9 @@
 
 .sub-menu__wrapper {
   height: 100vh;
-  top: 130px;
+  top: 70px;
   left: 0;
-  opacity: 0;
+  /* opacity: 0; */
   user-select: none;
   pointer-events: none;
   transition: all 0.5s;
