@@ -1,6 +1,6 @@
 import "../assets/css/index.css";
 
-// Carrousel Construido a partir de Bootstrap
+// Carrousel Construido con Bootstrap
 
 const Carrousel = () => {
   return (
