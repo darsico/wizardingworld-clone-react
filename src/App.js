@@ -5,7 +5,7 @@ import LastestNews from "./components/LastestNews";
 import MagicalFeatures from "./components/MagicalFeatures";
 import Hero from "./components/Hero";
 import Searcher from "./components/Searcher";
-import Splide from "./components/Splide";
+import Carrousel from "./components/Carrousel";
 
 const LastestNewsData = [
   {
@@ -33,7 +33,7 @@ function App() {
         <Hero />
       </div>
 
-      <Splide />
+      <Carrousel />
 
       <LastestNews LastestNewsData={LastestNewsData} />
 

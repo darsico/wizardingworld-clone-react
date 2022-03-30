@@ -110,7 +110,7 @@ if (isNews || isFeatures) {
 
 getPagesData();*/
 
-// Blog - reproducir canción de Hogwarts
+// Blog - Reproducir canción de Hogwarts
 
 function play() {
   var audio = document.getElementById("audio");
