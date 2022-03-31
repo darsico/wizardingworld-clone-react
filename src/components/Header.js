@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-
+  const [displayHamburger, setDisplayHamburger] = useState(true);
   const MenuIconHandleClick = () => {
     setNavbarOpen(!navbarOpen);
   };
@@ -24,10 +24,11 @@ const Header = () => {
           aria-label="Open navigation"
           aria-expanded="false"
           onClick={MenuIconHandleClick}
+          style={displayHamburger ? { display: "block" } : { display: "none" }}
         >
           <MenuIcon navbarOpen={navbarOpen} />
         </a>
-        <Navbar navbarOpen={navbarOpen} />
+        <Navbar navbarOpen={navbarOpen} setDisplayHamburger={setDisplayHamburger} />
         <a href="true" className="header__logo-link">
           <figure className="header__logo-container">
             <img src={logo} className="header__logo" alt="" />
@@ -35,20 +36,6 @@ const Header = () => {
         </a>
         <button className="header__button-login">login</button>
       </nav>
-      {/* <div className="sub-menu__wrapper" id="discover-desktop-wrapper">
-        <div className="sub-menu__inner-wrapper">
-          <div className="sub-menu__container" id="submenu-container-discover" />
-          <figure className="sub-menu__bottom-decoration-container"></figure>
-        </div>
-      </div>
-      <div className="sub-menu__wrapper" id="news-features-desktop-wrapper">
-        <div className="sub-menu__inner-wrapper">
-          <div className="sub-menu__container" id="submenu-container-news-features" />
-          <figure className="sub-menu__bottom-decoration-container">
-            <img src={submenuDecoration} alt="Decoración de submenu" className="sub-menu__bottom-decoration" />
-          </figure>
-        </div>
-      </div> */}
     </header>
   );
 };

@@ -28,6 +28,7 @@ export const headerList = [
     title: "Discover",
     classAndId: "discover",
     parentId: "discover",
+
     submenu: [
       {
         subId: 1,

@@ -2,14 +2,20 @@ import { useState } from "react";
 import SubmenuItem from "./SubmenuItem";
 import "animate.css";
 
-const NavbarItemSub = ({ navbarItemData }) => {
+const NavbarItemSub = ({ navbarItemData, setDisplayHamburger }) => {
   const [dropDown, setDropDown] = useState(false);
 
   const navbarItemHandleCLick = () => {
     setDropDown(!dropDown);
+    setDisplayHamburger(false);
   };
 
   const { title, submenu } = navbarItemData;
+  const backArrowHandleCLick = () => {
+    setDropDown(!dropDown);
+    setDisplayHamburger(true);
+  };
+
   return (
     <>
       <li className="header__menu-item" onClick={navbarItemHandleCLick}>
@@ -28,22 +34,26 @@ const NavbarItemSub = ({ navbarItemData }) => {
           </svg>
         </div>
       </li>
-      {dropDown && (
-        <>
-          <div
-            className="sub-menu__wrapper accordion-body
-          "
-          >
-            <div className="sub-menu__inner-wrapper   animate__animated animate__fadeInDown">
-              <div className="sub-menu__container">
-                {submenu.map((submenuItem) => {
-                  return <SubmenuItem key={submenuItem.subId} submenuItem={submenuItem} />;
-                })}
-              </div>
+
+      <div className={dropDown ? "sub-menu__wrapper sub-menu__wrapper--opened" : "sub-menu__wrapper"}>
+        <div className="sub-menu__inner-wrapper">
+          {dropDown && (
+            <div class="discover-menu__back-arrow-container" onClick={backArrowHandleCLick}>
+              <svg width="10" height="15" class="discover-menu__back-arrow" id="discover-back">
+                <g stroke="#FFF" stroke-width="1.7" fill="none" class="arrow-icon" fill-rule="evenodd">
+                  <path d="M6.664 8.923l-5.4 5M9.364 8.09l-8.1-7.5"></path>
+                </g>
+              </svg>
             </div>
+          )}
+          <div className="sub-menu__container">
+            <h2 className="header__menu-discover-title">{title}</h2>
+            {submenu.map((submenuItem) => {
+              return <SubmenuItem key={submenuItem.subId} submenuItem={submenuItem} />;
+            })}
           </div>
-        </>
-      )}
+        </div>
+      </div>
     </>
   );
 };

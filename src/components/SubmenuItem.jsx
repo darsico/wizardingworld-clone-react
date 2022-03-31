@@ -5,7 +5,7 @@ const SubmenuItem = ({ submenuItem }) => {
 
   return (
     <>
-      <div className="submenu-card ">
+      <div className="submenu-card">
         <a href={link}>
           <figure className="card__image-container">
             <img className="card__image" src={image} alt="" />

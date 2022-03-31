@@ -2,7 +2,7 @@ import { headerList as navbarData } from "../assets/data/headerList.js";
 import NavbarItem from "./NavbarItem.jsx";
 import NavbarItemSub from "./NavbarItemSub.jsx";
 
-const Navbar = ({ navbarOpen }) => {
+const Navbar = ({ navbarOpen, setDisplayHamburger }) => {
   return (
     <>
       <div
@@ -15,7 +15,11 @@ const Navbar = ({ navbarOpen }) => {
               return !navbarItemData.hasOwnProperty("submenu") ? (
                 <NavbarItem key={navbarItemData.id} navbarItemData={navbarItemData} />
               ) : (
-                <NavbarItemSub key={navbarItemData.id} navbarItemData={navbarItemData} />
+                <NavbarItemSub
+                  key={navbarItemData.id}
+                  navbarItemData={navbarItemData}
+                  setDisplayHamburger={setDisplayHamburger}
+                />
               );
             })}
           </ul>
