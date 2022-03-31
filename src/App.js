@@ -24,6 +24,8 @@ const LastestNewsData = [
   },
 ];
 
+
+
 function App() {
   return (
     <>

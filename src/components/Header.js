@@ -7,10 +7,10 @@ import MenuIcon from "./MenuIcon";
 import Navbar from "./Navbar";
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false);
 
   const MenuIconHandleClick = () => {
-    console.log("clicked");
+    setNavbarOpen(!navbarOpen);
   };
 
   return (
@@ -23,10 +23,11 @@ const Header = () => {
           aria-controls="menu-wrapper"
           aria-label="Open navigation"
           aria-expanded="false"
+          onClick={MenuIconHandleClick}
         >
-          <MenuIcon MenuIconHandleClick={MenuIconHandleClick} />
+          <MenuIcon navbarOpen={navbarOpen} />
         </a>
-        <Navbar />
+        <Navbar navbarOpen={navbarOpen} />
         <a href="true" className="header__logo-link">
           <figure className="header__logo-container">
             <img src={logo} className="header__logo" alt="" />

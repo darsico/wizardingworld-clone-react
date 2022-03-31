@@ -2,10 +2,13 @@ import { headerList as navbarData } from "../assets/data/headerList.js";
 import NavbarItem from "./NavbarItem.jsx";
 import NavbarItemSub from "./NavbarItemSub.jsx";
 
-const Navbar = () => {
+const Navbar = ({ navbarOpen }) => {
   return (
     <>
-      <div className="header__menu-wrapper" id="menu-wrapper">
+      <div
+        className={navbarOpen ? "header__menu-wrapper header__menu-wrapper--opened" : "header__menu-wrapper"}
+        id="menu-wrapper"
+      >
         <div className="header__menu-inner-wrapper" id="menu-inner-wrapper">
           <ul className="header__menu-list" id="header-menu-list">
             {navbarData.map((navbarItemData) => {
