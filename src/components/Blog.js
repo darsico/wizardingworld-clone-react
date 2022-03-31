@@ -1,9 +1,11 @@
 import React from "react";
 import useSound from "use-sound";
+
 import "../assets/css/index.css";
 import "../assets/css/blog2.css";
 import "../assets/css/estilos.css";
 import "../assets/js/main.js";
+
 import backgroundAudio from "../assets/images/blog/blog-audio.jpg";
 import backgroundBlog1 from "../assets/images/blog/blog-1.jpg";
 import backgroundBlog2 from "../assets/images/blog/blog-2.jpg";
@@ -43,6 +45,7 @@ const Blog = () => {
         </div>
         <div className="blog__description">
           <h1 className="blog__title">Colección especial</h1>
+
           <h2 class="blog__subtitle">Más información sobre el libro Harry Potter y el legado maldito</h2>
           <p class="blog__paragraph">
             Visita nuestra nueva colección, donde podrás conocer más de la obra galardonada. Podrás sumergirte en este
@@ -86,6 +89,7 @@ const Blog = () => {
         </div>
         <div className="blog__description">
           <h1 className="blog__title">Acércate a la magia, en cualquier momento y lugar</h1>
+
           <h2 class="blog__subtitle">Tu momento ha llegado</h2>
           <p class="blog__paragraph">
             Únase al Club de fans de Harry Potter, participe en la Ceremonia de clasificación de casas de Hogwarts,

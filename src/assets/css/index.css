@@ -29,8 +29,13 @@
   position: relative;
   overflow-x: hidden;
   background-color: #10141b;
+  margin-top: 136px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> develop
 .clear-theme {
   background-color: white;
 }
@@ -214,11 +219,14 @@
   border: 0;
   animation-timing-function: ease-in-out;
 }
+<<<<<<< HEAD
 
 a {
   text-decoration: none;
   color: inherit;
 }
+=======
+>>>>>>> develop
 
 /* Media Queries */
 

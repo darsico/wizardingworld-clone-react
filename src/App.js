@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Searcher from "./components/Searcher";
 import Carrousel from "./components/Carrousel";
 import Characters from "./components/Characters";
+import Header from "./components/Header";
 
 const LastestNewsData = [
   {
@@ -30,6 +31,8 @@ const LastestNewsData = [
 function App() {
   return (
     <div className="body">
+      <Header />
+
       <div className="hero-component">
         <Hero />
       </div>

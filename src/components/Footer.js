@@ -1,7 +1,7 @@
 import React from "react";
 import '../assets/css/index.css';
 import '../assets/css/footer.css'
-import '../assets/js/main.js'
+
 
 import logo from '../assets/images/footer/wwlogo.svg'
 import facebook from '../assets/images/footer/facebook.svg'
