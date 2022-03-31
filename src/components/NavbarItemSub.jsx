@@ -2,18 +2,18 @@ import { useState } from "react";
 import SubmenuItem from "./SubmenuItem";
 import "animate.css";
 
-const NavbarItemSub = ({ navbarItemData, setDisplayHamburger }) => {
+const NavbarItemSub = ({ navbarItemData, setHideHamburger }) => {
   const [dropDown, setDropDown] = useState(false);
 
   const navbarItemHandleCLick = () => {
     setDropDown(!dropDown);
-    setDisplayHamburger(false);
+    setHideHamburger(true);
   };
 
   const { title, submenu } = navbarItemData;
   const backArrowHandleCLick = () => {
     setDropDown(!dropDown);
-    setDisplayHamburger(true);
+    setHideHamburger(false);
   };
 
   return (
@@ -47,7 +47,7 @@ const NavbarItemSub = ({ navbarItemData, setDisplayHamburger }) => {
             </div>
           )}
           <div className="sub-menu__container">
-            <h2 className="header__menu-discover-title">{title}</h2>
+            {window.innerWidth < 1024 && <h2 className="header__menu-discover-title">{title}</h2>}
             {submenu.map((submenuItem) => {
               return <SubmenuItem key={submenuItem.subId} submenuItem={submenuItem} />;
             })}

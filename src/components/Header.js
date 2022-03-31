@@ -1,14 +1,13 @@
 import { useState } from "react";
 import "../assets/css/header.css";
 import logo from "../assets/images/header/logo.svg";
-import submenuDecoration from "../assets/images/header/submenu-bottom-decoration.svg";
 
 import MenuIcon from "./MenuIcon";
 import Navbar from "./Navbar";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [displayHamburger, setDisplayHamburger] = useState(true);
+  const [hideHamburger, setHideHamburger] = useState(false);
   const MenuIconHandleClick = () => {
     setNavbarOpen(!navbarOpen);
   };
@@ -24,11 +23,15 @@ const Header = () => {
           aria-label="Open navigation"
           aria-expanded="false"
           onClick={MenuIconHandleClick}
-          style={displayHamburger ? { display: "block" } : { display: "none" }}
+          style={
+            window.innerWidth < 1024 && hideHamburger
+              ? { visibility: "hidden", opacity: "0" }
+              : { visibility: "visible", opacity: "1" }
+          }
         >
           <MenuIcon navbarOpen={navbarOpen} />
         </a>
-        <Navbar navbarOpen={navbarOpen} setDisplayHamburger={setDisplayHamburger} />
+        <Navbar navbarOpen={navbarOpen} setHideHamburger={setHideHamburger} />
         <a href="true" className="header__logo-link">
           <figure className="header__logo-container">
             <img src={logo} className="header__logo" alt="" />

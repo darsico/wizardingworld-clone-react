@@ -2,11 +2,11 @@ import { headerList as navbarData } from "../assets/data/headerList.js";
 import NavbarItem from "./NavbarItem.jsx";
 import NavbarItemSub from "./NavbarItemSub.jsx";
 
-const Navbar = ({ navbarOpen, setDisplayHamburger }) => {
+const Navbar = ({ navbarOpen, setHideHamburger }) => {
   return (
     <>
       <div
-        className={navbarOpen ? "header__menu-wrapper header__menu-wrapper--opened" : "header__menu-wrapper"}
+        className={navbarOpen ? "header__menu-wrapper header__menu-wrapper--opened" : "header__menu-wrapper "}
         id="menu-wrapper"
       >
         <div className="header__menu-inner-wrapper" id="menu-inner-wrapper">
@@ -18,7 +18,7 @@ const Navbar = ({ navbarOpen, setDisplayHamburger }) => {
                 <NavbarItemSub
                   key={navbarItemData.id}
                   navbarItemData={navbarItemData}
-                  setDisplayHamburger={setDisplayHamburger}
+                  setHideHamburger={setHideHamburger}
                 />
               );
             })}

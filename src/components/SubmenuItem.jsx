@@ -1,5 +1,3 @@
-import cardDecoration from "../assets/images/header/submenu-bottom-decoration.svg";
-
 const SubmenuItem = ({ submenuItem }) => {
   const { title, image, link } = submenuItem;
 
