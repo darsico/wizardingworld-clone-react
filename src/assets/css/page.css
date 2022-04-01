@@ -1,3 +1,4 @@
+@import url(./index.css);
 .page-hero {
   width: 100vw;
   height: 90vh;
@@ -63,6 +64,7 @@
   font-family: var(--accent-font-bold);
   text-align: center;
   height: 130px;
+  color: black;
 }
 
 .latest-post {
@@ -185,6 +187,7 @@
   font-size: 1.4em;
   line-height: 1.8rem;
   font-family: var(--accent-font-bold);
+  color: black;
   text-align: center;
 }
 
@@ -274,6 +277,9 @@
 /* MEDIA QUERIES */
 
 @media (min-width: 1024px) {
+  .page-hero {
+    margin-top: 130px;
+  }
   .page-hero-container-details {
     padding: 0;
   }

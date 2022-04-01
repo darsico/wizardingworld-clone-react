@@ -190,6 +190,9 @@
   .header__container {
   background-color: #10141b;
 }
+.dynamic-header {
+  background-color: transparent;
+}
 
   .header {
     background: transparent;

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../assets/css/header.css";
 import logo from "../assets/images/header/logo.svg";
 
@@ -10,31 +9,26 @@ import Navbar from "./Navbar";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [hideHamburger, setHideHamburger] = useState(false);
-  const [dynamic, setDynamic] = useState(false);
-
-  let location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === "/" && typeof window !== "undefined" && window.innerWidth > 1024) {
-      window.addEventListener("scroll", () => setDynamic(window.pageYOffset > 0));
-    }
-  }, [location]);
-
   const MenuIconHandleClick = () => {
     setNavbarOpen(!navbarOpen);
   };
+  const [small, setSmall] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () => setSmall(window.pageYOffset > 200));
+    }
+  }, []);
+
+  // <header className={`header ${
+  //       small ? "small" : ""
+  //     }`}>
+  //   Logo etc.
+  // </header>
 
   return (
-    <header className="header">
-      <nav
-        className={
-          location.pathname === "/"
-            ? dynamic
-              ? "header__container "
-              : "header__container dynamic-header"
-            : "header__container"
-        }
-      >
+    <header className="header dynamic-header">
+      <nav className="header__container">
         {window.innerWidth < 1024 && hideHamburger ? null : (
           <a
             href

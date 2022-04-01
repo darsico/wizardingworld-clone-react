@@ -28,8 +28,10 @@
   font-family: var(--primary-font-500), sans-serif;
   position: relative;
   overflow-x: hidden;
-  background-color: #10141b;
-  margin-top: 136px;
+  background: url("../images/background-stars.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 .clear-theme {
@@ -227,6 +229,9 @@ a {
   .clear-theme {
     margin-top: 136px;
   }
+  .body {
+      margin-top: 136px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -250,7 +255,9 @@ a {
     margin-bottom: 3rem;
     min-height: 100vh;
   }
-
+  .news, .features {
+    top: 70px;
+  }
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -388,5 +395,7 @@ transform: translate(-50%, -50%);
 }
 
 .news, .features {
+
   background: white;
 }
+
