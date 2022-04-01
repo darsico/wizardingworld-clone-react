@@ -2,7 +2,7 @@ import { headerList as navbarData } from "../assets/data/headerList.js";
 import NavbarItem from "./NavbarItem.jsx";
 import NavbarItemSub from "./NavbarItemSub.jsx";
 
-const Navbar = ({ navbarOpen, setHideHamburger }) => {
+const Navbar = ({ navbarOpen, setHideHamburger, MenuIconHandleClick }) => {
   return (
     <>
       <div
@@ -19,6 +19,7 @@ const Navbar = ({ navbarOpen, setHideHamburger }) => {
                   key={navbarItemData.id}
                   navbarItemData={navbarItemData}
                   setHideHamburger={setHideHamburger}
+                  MenuIconHandleClick={MenuIconHandleClick}
                 />
               );
             })}

@@ -1,10 +1,17 @@
-const SubmenuItem = ({ submenuItem }) => {
-  const { title, image, link } = submenuItem;
+import { NavLink } from "react-router-dom";
 
+const SubmenuItem = ({ submenuItem, backArrowHandleCLick, MenuIconHandleClick }) => {
+  const { title, image, link } = submenuItem;
+  const handleSubmenuCardClick = () => {
+    if (window.innerWidth < 1024) {
+      MenuIconHandleClick();
+    }
+    backArrowHandleCLick();
+  };
   return (
     <>
-      <div className="submenu-card">
-        <a href={link}>
+      <div className="submenu-card" onClick={handleSubmenuCardClick}>
+        <NavLink to={link}>
           <figure className="card__image-container">
             <img className="card__image" src={image} alt="" />
           </figure>
@@ -14,7 +21,7 @@ const SubmenuItem = ({ submenuItem }) => {
               <img className="card__decoration-icon" src="" alt="" />
             </figure>
           </div>
-        </a>
+        </NavLink>
       </div>
     </>
   );

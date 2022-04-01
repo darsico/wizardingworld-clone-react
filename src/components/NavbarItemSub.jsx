@@ -2,7 +2,7 @@ import { useState } from "react";
 import SubmenuItem from "./SubmenuItem";
 import "animate.css";
 
-const NavbarItemSub = ({ navbarItemData, setHideHamburger }) => {
+const NavbarItemSub = ({ navbarItemData, setHideHamburger, MenuIconHandleClick }) => {
   const [dropDown, setDropDown] = useState(false);
 
   const navbarItemHandleCLick = () => {
@@ -49,7 +49,14 @@ const NavbarItemSub = ({ navbarItemData, setHideHamburger }) => {
           <div className="sub-menu__container">
             {window.innerWidth < 1024 && <h2 className="header__menu-discover-title">{title}</h2>}
             {submenu.map((submenuItem) => {
-              return <SubmenuItem key={submenuItem.subId} submenuItem={submenuItem} />;
+              return (
+                <SubmenuItem
+                  key={submenuItem.subId}
+                  submenuItem={submenuItem}
+                  backArrowHandleCLick={backArrowHandleCLick}
+                  MenuIconHandleClick={MenuIconHandleClick}
+                />
+              );
             })}
           </div>
         </div>
