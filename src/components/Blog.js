@@ -1,7 +1,10 @@
 import React from "react";
 import useSound from "use-sound";
-import '../assets/css/index.css';
-import '../assets/css/blog2.css';
+
+import "../assets/css/index.css";
+import "../assets/css/blog2.css";
+import "../assets/css/estilos.css";
+import "../assets/js/main.js";
 
 import backgroundAudio from "../assets/images/blog/blog-audio.jpg";
 import backgroundBlog1 from "../assets/images/blog/blog-1.jpg";
@@ -13,7 +16,8 @@ import mySound from "../assets/media/hpts.mp3";
 const Blog = () => {
   const [playSound] = useSound(mySound);
   return (
-    <div className="blog">
+    <div className="magical-features__container">
+      <h2 className="magical-features__title blog__title">Blog</h2>
       <div className="blog-card">
         <div className="blog__image-container">
           <div className="blog__image" style={{ backgroundImage: `url(${backgroundAudio})` }}></div>
@@ -23,13 +27,13 @@ const Blog = () => {
           <h2 className="blog__subtitle">Revive una experiencia inolvidable</h2>
           <p className="blog__paragraph">
             Conocida por diversas generaciones de magos y brujas a través de los años. Puedes escuchar la conocida
-            melodía del universo de Harry Potter aquí. Disfruta de tu estadía en Wizzarding World.
+            melodía del universo de Harry Potter aquí. Disfruta de tu estadía en Wizarding World.
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              {/* <button type="button" className="audio__button" onClick={playSound()}> */}
-              Escuchar ahora
-              {/* </button> */}
+              <button type="button" className="audio__button" onclick={playSound()}>
+                Escuchar ahora
+              </button>
             </a>
           </p>
         </div>
@@ -41,14 +45,15 @@ const Blog = () => {
         </div>
         <div className="blog__description">
           <h1 className="blog__title">Colección especial</h1>
-          <h2 className="blog__subtitle">Más información sobre el libro Harry Potter y el legado maldito</h2>
-          <p className="blog__paragraph">
+
+          <h2 class="blog__subtitle">Más información sobre el libro Harry Potter y el legado maldito</h2>
+          <p class="blog__paragraph">
             Visita nuestra nueva colección, donde podrás conocer más de la obra galardonada. Podrás sumergirte en este
             nuevo universo a través de exclusivos videos, quizzes y demás funciones.
           </p>
-          <p className="blog__button">
-            <a className="audio__button-container">
-              <button type="button" className="audio__button">
+          <p class="blog__button">
+            <a class="audio__button-container">
+              <button type="button" class="audio__button">
                 Visita la colección
               </button>
             </a>
@@ -69,7 +74,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onClick="#">
+              <button type="button" className="audio__button" onclick="#">
                 Encuentra tu varita
               </button>
             </a>
@@ -84,14 +89,15 @@ const Blog = () => {
         </div>
         <div className="blog__description">
           <h1 className="blog__title">Acércate a la magia, en cualquier momento y lugar</h1>
-          <h2 className="blog__subtitle">Tu momento ha llegado</h2>
-          <p className="blog__paragraph">
+
+          <h2 class="blog__subtitle">Tu momento ha llegado</h2>
+          <p class="blog__paragraph">
             Únase al Club de fans de Harry Potter, participe en la Ceremonia de clasificación de casas de Hogwarts,
             juegue en concursos y acertijos, y explore todos los rincones del mundo mágico con la aplicación oficial.
           </p>
-          <p className="blog__button">
-            <a className="audio__button-container">
-              <button type="button" className="audio__button">
+          <p class="blog__button">
+            <a class="audio__button-container">
+              <button type="button" class="audio__button">
                 Saber más
               </button>
             </a>
@@ -112,7 +118,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onClick="#">
+              <button type="button" className="audio__button" onclick="#">
                 Descubrir mi casa
               </button>
             </a>

@@ -1,21 +1,20 @@
-.body {
-  background-color: #10141b;
-  padding: 1rem;
-}
 .footer {
   font-family: sans-serif;
   background-color: #10141b;
   font-weight: 600;
   margin: 2rem 1rem;
 }
+
 .footer__border {
   border: 1px solid #696b78;
 }
+
 .footer__credits-container {
   text-align: center;
   margin: 2rem 1rem;
   padding: 1rem;
 }
+
 .footer__credits-up {
   display: flex;
   flex-direction: column-reverse;
@@ -24,6 +23,7 @@
   color: white;
   padding-bottom: 1rem;
 }
+
 .footer-credits-up__links-item-list {
   display: flex;
   flex-direction: column;
@@ -32,15 +32,18 @@
   text-align: center;
   gap: 1rem;
 }
+
 .footer-credits-up__link-item {
   padding: 0.5rem;
 }
+
 .footer-credits-up__link {
   text-decoration: none;
   color: aliceblue;
   position: static;
   transition: all 0.25s;
 }
+
 .footer-credits-up__link:hover {
   border-bottom: 1px solid white;
 }
@@ -49,15 +52,19 @@
   display: flex;
   padding-bottom: 2rem;
 }
+
 .footer-credits-up__logo-content {
   padding: 0;
 }
+
 .footer-credits-up__logo {
   width: 110px;
 }
+
 .footer__line-divider {
   border-bottom: none;
 }
+
 .footer__credits-down {
   color: #696b78;
   display: flex;
@@ -65,23 +72,28 @@
   align-items: center;
   gap: 2rem;
 }
+
 .footer-credits-down__paragraphs-content {
   font-size: 1rem;
 }
+
 .footer-credits-down__title {
   margin: 0;
   text-transform: uppercase;
 }
+
 .footer-credits-down__paragraph {
   display: flex;
   margin: 1rem 0;
 }
+
 .footer-credits-down__links-list {
   display: flex;
   gap: 1.5rem;
   padding: 0;
   margin-top: 1.5rem;
 }
+
 .footer-credits-down__links {
   background-color: #242633;
   list-style: none;
@@ -91,11 +103,13 @@
   display: flex;
   align-items: center;
 }
+
 .footer-credits-down__link-icon {
   width: 4rem;
   display: flex;
   justify-content: center;
 }
+
 .footer-credits-down__icon {
   padding: 0;
 }

@@ -11,6 +11,7 @@ import Features from "./Pages/Features";
 function App() {
   return (
     <>
+    <div className="body">
       <Header />
       <main className="main">
         <Routes>
@@ -20,6 +21,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      </div>
     </>
   );
 }

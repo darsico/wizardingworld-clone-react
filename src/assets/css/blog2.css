@@ -68,6 +68,7 @@
 .blog-card .blog__description .blog__paragraph {
   position: relative;
   margin: 1rem 0 0;
+  color: black;
 }
 
 .blog-card .blog__description .blog__paragraph:first-of-type {
@@ -162,4 +163,8 @@
   .blog-card.alt .details {
     padding-left: 25px;
   }
+}
+
+.blog__title {
+  color: white;
 }
