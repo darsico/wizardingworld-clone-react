@@ -4,16 +4,16 @@ import "../assets/css/index.css";
 
 const Carrousel = () => {
   return (
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel__title">
-        <h2 class="form__title">👓⚡ ¿Reconoces estas escenas? ⚡👓</h2>
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+      <div className="carousel__title">
+        <h2 className="form__title">👓⚡ ¿Reconoces estas escenas? ⚡👓</h2>
       </div>
-      <div class="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -60,73 +60,73 @@ const Carrousel = () => {
           aria-label="Slide 8"
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://i.postimg.cc/TPdzL0pK/wingardium-leviosa.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Es Wingardium Leviosa, no Wingardium Leviosá</p>
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src="https://i.postimg.cc/TPdzL0pK/wingardium-leviosa.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Es Wingardium Leviosa, no Wingardium Leviosá</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/Bn0S4MGw/orden-del-fenix.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Junto a la Orden del Fénix</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/Bn0S4MGw/orden-del-fenix.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Junto a la Orden del Fénix</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/8zxXsLnM/pocion-multijugos.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Preparando poción multijugos</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/8zxXsLnM/pocion-multijugos.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Preparando poción multijugos</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/ZnrTdMkg/dobby.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Dobby, el elfo libre</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/ZnrTdMkg/dobby.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Dobby, el elfo libre</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/zBGhrcSj/quidditch.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Concentrado en la Snitch dorada</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/zBGhrcSj/quidditch.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Concentrado en la Snitch dorada</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/QM0SX8HY/patronus.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Encantamiento Patronus</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/QM0SX8HY/patronus.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Encantamiento Patronus</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/V6LFVdWL/llegando-hogwarts.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Llegando a Hogwarts</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/V6LFVdWL/llegando-hogwarts.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Llegando a Hogwarts</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="https://i.postimg.cc/1RkzWDJM/torneo-tres-magos.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <p class="slide__paragraph">Un nuevo participante en el torneo de los Tres Magos</p>
+        <div className="carousel-item">
+          <img src="https://i.postimg.cc/1RkzWDJM/torneo-tres-magos.jpg" className="d-block w-100" alt="..." />
+          <div className="carousel-caption d-none d-md-block">
+            <p className="slide__paragraph">Un nuevo participante en el torneo de los Tres Magos</p>
           </div>
         </div>
       </div>
       <button
-        class="carousel-control-prev"
+        className="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next"
+        className="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );
