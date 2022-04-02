@@ -20,6 +20,10 @@ El repositorio contiene los siguientes archivos:
 - Archivos .js y carpeta componentes donde se subdivide .js de cada componente. Algunos de los componentes que presentamos en este proyecto son: Header, Hero, Carrousel, Magical Features, Seacher, Blog, Latests News, entre otros.
 - Archivos css (estilos).
 
+### ¿Preparado para conocer más de nuestra propuesta?
+
+[![harry-potter-loading.gif](https://i.postimg.cc/cL1VqNNF/harry-potter-loading.gif)](https://postimg.cc/8j3yW9cv)
+
 ## Vistas del proyecto
 
 ### Vista pantalla completa en laptop
