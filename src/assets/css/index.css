@@ -28,10 +28,10 @@
   font-family: var(--primary-font-500), sans-serif;
   position: relative;
   overflow-x: hidden;
-  background: url("../images/background-stars.jpg");
+  background: url("../images/background-stars.jpg") ;
   background-repeat: repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: auto;
+  background-attachment: fixed ;
 }
 
 .clear-theme {

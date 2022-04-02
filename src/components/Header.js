@@ -23,9 +23,18 @@ const Header = () => {
   const MenuIconHandleClick = () => {
     setNavbarOpen(!navbarOpen);
   };
+  const dynamicColorClick = () => {
+    setDynamic(true);
+  };
+  const handleEnterHeader = () => {
+    setDynamic(true);
+  };
+  const handleLeaveHeader = () => {
+    if (window.pageYOffset === 0) setDynamic(false);
+  };
 
   return (
-    <header className="header">
+    <header className="header" onMouseEnter={handleEnterHeader} onMouseLeave={handleLeaveHeader}>
       <nav
         className={
           location.pathname === "/"
@@ -49,13 +58,21 @@ const Header = () => {
           </a>
         )}
 
-        <Navbar navbarOpen={navbarOpen} setHideHamburger={setHideHamburger} MenuIconHandleClick={MenuIconHandleClick} />
+        <Navbar
+          navbarOpen={navbarOpen}
+          setHideHamburger={setHideHamburger}
+          MenuIconHandleClick={MenuIconHandleClick}
+          dynamicColorClick={dynamicColorClick}
+        />
+
         <NavLink to="/" className="header__logo-link">
           <figure className="header__logo-container">
             <img src={logo} className="header__logo" alt="" />
           </figure>
         </NavLink>
-        <button className="header__button-login">login</button>
+        <NavLink to="/login" className="header__button-login">
+          login
+        </NavLink>
       </nav>
     </header>
   );

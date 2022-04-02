@@ -1,6 +1,7 @@
 import "../assets/css/index.css";
 import "../assets/css/hero.css";
 import "../assets/css/hero2.css";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,19 +16,19 @@ const Hero = () => {
           </p>
           <div className="hero__message-pages-container">
             <div className="hero__message-button-container">
-              <a href="" className="hero__message-page-button hero__message-page-button--active">
+              <NavLink to="/quiz" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Quizzes</button>
-              </a>
+              </NavLink>
             </div>
             <div className="hero__message-button-container">
-              <a href="" className="hero__message-page-button hero__message-page-button--active">
+              <NavLink to="/characters" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Personajes</button>
-              </a>
+              </NavLink>
             </div>
             <div className="hero__message-button-container">
-              <a href="" className="hero__message-page-button hero__message-page-button--active">
+              <NavLink to="/hechizos" className="hero__message-page-button hero__message-page-button--active">
                 <button className="hero__message-button-animate">Hechizos</button>
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

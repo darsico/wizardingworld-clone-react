@@ -31,7 +31,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onclick={playSound()}>
+              <button type="button" className="audio__button" onClick={playSound()}>
                 Escuchar ahora
               </button>
             </a>
@@ -74,7 +74,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onclick="#">
+              <button type="button" className="audio__button" onClick="#">
                 Encuentra tu varita
               </button>
             </a>
@@ -118,7 +118,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onclick="#">
+              <button type="button" className="audio__button" onClick="#">
                 Descubrir mi casa
               </button>
             </a>

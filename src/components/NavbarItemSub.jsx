@@ -2,12 +2,13 @@ import { useState } from "react";
 import SubmenuItem from "./SubmenuItem";
 import "animate.css";
 
-const NavbarItemSub = ({ navbarItemData, setHideHamburger, MenuIconHandleClick }) => {
+const NavbarItemSub = ({ navbarItemData, setHideHamburger, MenuIconHandleClick, dynamicColorClick }) => {
   const [dropDown, setDropDown] = useState(false);
 
   const navbarItemHandleCLick = () => {
     setDropDown(!dropDown);
     setHideHamburger(true);
+    dynamicColorClick();
   };
 
   const { title, submenu } = navbarItemData;
@@ -40,7 +41,7 @@ const NavbarItemSub = ({ navbarItemData, setHideHamburger, MenuIconHandleClick }
           {dropDown && (
             <div className="discover-menu__back-arrow-container" onClick={backArrowHandleCLick}>
               <svg width="10" height="15" className="discover-menu__back-arrow" id="discover-back">
-                <g stroke="#FFF" stroke-width="1.7" fill="none" className="arrow-icon" fill-rule="evenodd">
+                <g stroke="#FFF" strokeWidth="1.7" fill="none" className="arrow-icon" fill-rule="evenodd">
                   <path d="M6.664 8.923l-5.4 5M9.364 8.09l-8.1-7.5"></path>
                 </g>
               </svg>

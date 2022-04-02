@@ -53,6 +53,9 @@ table {
   text-decoration: none;
   color: inherit;
 }
+ a:hover {
+  color: inherit;
+}
 ul, li {
 	  list-style-type: none;
 }
