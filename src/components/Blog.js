@@ -15,6 +15,9 @@ import mySound from "../assets/media/hpts.mp3";
 
 const Blog = () => {
   const [playSound] = useSound(mySound);
+  const handleCLickAudio = () => {
+    playSound();
+  };
   return (
     <div className="magical-features__container">
       <h2 className="magical-features__title blog__title">Blog</h2>
@@ -31,7 +34,7 @@ const Blog = () => {
           </p>
           <p className="blog__button">
             <a className="audio__button-container">
-              <button type="button" className="audio__button" onClick={playSound()}>
+              <button type="button" className="audio__button" onClick={handleCLickAudio}>
                 Escuchar ahora
               </button>
             </a>
