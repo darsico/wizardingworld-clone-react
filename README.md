@@ -30,7 +30,7 @@ El repositorio contiene los siguientes archivos:
        
 [![web-3.png](https://i.postimg.cc/tRZp8BJP/web-3.png)](https://postimg.cc/5jVhCqwN)
        
-[![web-4.png](https://i.postimg.cc/x8jhRTXL/web-4.png)](https://postimg.cc/47MW4Gb3)
+[![web-4.png](https://i.postimg.cc/KjFf79sV/web-4.png)](https://postimg.cc/tZSFpzbt)
           
 [![web-5.png](https://i.postimg.cc/vTPjSFnk/web-5.png)](https://postimg.cc/tnx2Yc2N)
       
