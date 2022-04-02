@@ -1,0 +1,16 @@
+.initial-loader-container {
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: #10141b;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ transition: all 0.5s;
+}
+.initial-loader {
+ transform: scale(1.5);
+}
