@@ -1,26 +1,51 @@
 # Wizarding World Clone - React ⚡👓🏰🧙‍♂ - Reto 8 & 9
 
-El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la landing page de la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
+El presente proyecto desasrrollado en REACT constó de clonar y proponer nuevos componentes para la landing page y algunas páginas de la web oficlal "Wizarding World" del universo de Harry Potter y Animales Fantásticos. Cabe resaltar que este proyecto es hecho por fans para fans. En nuestra propuesta, se añadieron nuevas funcionalidades que permitirán que tu experiencia en el mundo mágico sea memorable.
 
-Para comenzar, encontrarás un Header con botones de secciones como "News" & "Features". Así también, cuenta con una sección llamada "Discover" con cinco subcategorías sobre libros, películas, experiencias, entre otros datos de interés.
-En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 2 actividades a realizar: Descubriendo Personajes y Hechizos.
+Para comenzar, encontrarás un Header con botones de secciones como "News" & "Features" en el podrás acceder a ambas páginas. Así también, cuenta con una sección llamada "Discover" con cinco subcategorías sobre libros, películas, experiencias, entre otros datos de interés. 
+En la landing page, nuestra sección Hero propone una experiencia diferente por medio de 3 actividades a realizar: Descubriendo Personajes, Quizzes y Hechizos.
 
-Al seguir navegando en la landing page, te encontrarás con un carrousel que te recordarán escenas de las películas de Harry Potter, así como secciones de "Lastests News", "Magical Features" y "Blogs", donde tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards. Finalmente, se cuenta con un footer con información de contacto y el resumen de secciones presentadas.
+Al seguir navegando en la landing page, te encontrarás con un carrousel que te recordará escenas de las películas de Harry Potter ¿Puedes identificar en qué películas aparecen? Así como otras secciones como "Magical Features", "Lastests News" y "Blogs", donde tendrás la posibilidad de escuchar la melodía de Hogwarts al presionar un botón en una de las cards. Tenemos otra sección con un buscador que fue implementado con Bootstrap. Finalmente, se cuenta con un footer con información de contacto y el resumen de las secciones presentadas.
 
-¿Vas a perderte esta nueva experiencia mágica?
+¿Vas a perderte esta nueva experiencia mágica, construida con REACT? 
 
 [![logo.png](https://i.postimg.cc/LXdQ94j6/logo.png)](https://postimg.cc/mcwyVsd0)
 
 ## Introducción
 
-El repositorio contiene los archivos..........
+El repositorio contiene los siguientes archivos:
+- Carpeta de Pages con archivos .jsx
+- Achivos json con la data.
+- Imágenes, animaciones y .mp3.
+- Archivos .js y carpeta componentes donde se subdivide .js de cada componente. Algunos de los componentes que presentamos en este proyecto son: Header, Hero, Carrousel, Magical Features, Seacher, Blog, Latests News, entre otros.
+- Archivos css (estilos).
 
 ## Vistas del proyecto
 
 ### Vista pantalla completa en laptop
-
+      
+[![web-1.png](https://i.postimg.cc/9Fg5LTt0/web-1.png)](https://postimg.cc/kBSp42HP)
+      
+[![web-2.png](https://i.postimg.cc/52ZcVVrM/web-2.png)](https://postimg.cc/xXypvWYs)
+       
+[![web-3.png](https://i.postimg.cc/vBsp4vMq/web-3.png)](https://postimg.cc/GBXMNG4G)
+       
+[![web-4.png](https://i.postimg.cc/x8jhRTXL/web-4.png)](https://postimg.cc/47MW4Gb3)
+          
+[![web-5.png](https://i.postimg.cc/vTPjSFnk/web-5.png)](https://postimg.cc/tnx2Yc2N)
+      
+[![web-6.png](https://i.postimg.cc/XNDQhghR/web-6.png)](https://postimg.cc/RqK7Jwvd)
+   
 ### Vista responsive en mobile
-
+        
+[![mobile-1.png](https://i.postimg.cc/xC13pkPj/mobile-1.png)](https://postimg.cc/kVLSBgZL)
+       
+[![mobile-2.png](https://i.postimg.cc/7L3qthZR/mobile-2.png)](https://postimg.cc/1gzxf960)
+      
+[![mobile-3.png](https://i.postimg.cc/636xHhS7/mobile-3.png)](https://postimg.cc/WDyyz0sj)
+     
+[![mobile-4.png](https://i.postimg.cc/sXndbhdT/mobile-4.png)](https://postimg.cc/ygSbZWNR)
+    
 ### Módulo
 
 Este proyecto corresponde a la octava y novena semana del módulo de Frontend.
