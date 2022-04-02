@@ -1,10 +1,12 @@
+import { NavLink } from "react-router-dom";
+
 const NavbarItem = ({ navbarItemData }) => {
   const { link, title } = navbarItemData;
   return (
     <li className="header__menu-item">
-      <a href={link} className="header__menu-item-link">
+      <NavLink to={link} className="header__menu-item-link">
         {title}
-      </a>
+      </NavLink>
     </li>
   );
 };

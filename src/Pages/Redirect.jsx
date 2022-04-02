@@ -84,7 +84,7 @@ const Redirect = () => {
                 Regresar a la página inicial
               </NavLink>
               {isOfficial ? (
-                <a className="btn-redirect button-to-redirect" href={link} target="_blank" rel="noreferrer">
+                <a className="btn-redirect button-to-redirect" href={link} target="_blank">
                   Ir a pagina {pageName} oficial
                 </a>
               ) : (
