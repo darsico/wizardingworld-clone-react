@@ -16,6 +16,9 @@ const Redirect = () => {
     isRender(false);
     checkLocation();
     isRender(true);
+    return () => {
+      setIsOfficial(false);
+    };
   }, [location]);
 
   const checkLocation = () => {
