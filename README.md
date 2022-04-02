@@ -28,7 +28,7 @@ El repositorio contiene los siguientes archivos:
       
 [![web-2.png](https://i.postimg.cc/52ZcVVrM/web-2.png)](https://postimg.cc/xXypvWYs)
        
-[![web-3.png](https://i.postimg.cc/vBsp4vMq/web-3.png)](https://postimg.cc/GBXMNG4G)
+[![web-3.png](https://i.postimg.cc/tRZp8BJP/web-3.png)](https://postimg.cc/5jVhCqwN)
        
 [![web-4.png](https://i.postimg.cc/x8jhRTXL/web-4.png)](https://postimg.cc/47MW4Gb3)
           
