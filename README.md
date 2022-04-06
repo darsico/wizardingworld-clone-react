@@ -38,7 +38,7 @@ El repositorio contiene los siguientes archivos:
           
 [![web-5.png](https://i.postimg.cc/3JqpYSFT/web-5.png)](https://postimg.cc/7fgbNNRs)
       
-[![web-6.png](https://i.postimg.cc/XNDQhghR/web-6.png)](https://postimg.cc/RqK7Jwvd)
+[![image-characters.png](https://i.postimg.cc/rmybcBh6/image-characters.png)](https://postimg.cc/bGML9BcL)
   
 ### Vista responsive en mobile
   
