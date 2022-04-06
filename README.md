@@ -39,9 +39,9 @@ El repositorio contiene los siguientes archivos:
 [![web-5.png](https://i.postimg.cc/3JqpYSFT/web-5.png)](https://postimg.cc/7fgbNNRs)
       
 [![web-6.png](https://i.postimg.cc/XNDQhghR/web-6.png)](https://postimg.cc/RqK7Jwvd)
-   
+  
 ### Vista responsive en mobile
-        
+  
 [![mobile-1.png](https://i.postimg.cc/xC13pkPj/mobile-1.png)](https://postimg.cc/kVLSBgZL)
        
 [![mobile-2.png](https://i.postimg.cc/7L3qthZR/mobile-2.png)](https://postimg.cc/1gzxf960)
@@ -52,7 +52,7 @@ El repositorio contiene los siguientes archivos:
   
 ### Arquitectura del proyecto
        
-[![arquitectura-web-potter.png](https://i.postimg.cc/28CqY2YQ/arquitectura-web-potter.png)](https://postimg.cc/yWr6Xhkx)
+[![arquitectura-web.png](https://i.postimg.cc/3w27dQCd/arquitectura-web.png)](https://postimg.cc/gwc1T57W)
               
 ### Módulo
 
