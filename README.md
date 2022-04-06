@@ -48,7 +48,7 @@ El repositorio contiene los siguientes archivos:
       
 [![mobile-3.png](https://i.postimg.cc/636xHhS7/mobile-3.png)](https://postimg.cc/WDyyz0sj)
      
-[![mobile-4.png](https://i.postimg.cc/sXndbhdT/mobile-4.png)](https://postimg.cc/ygSbZWNR)
+[![image-characters.png](https://i.postimg.cc/rmybcBh6/image-characters.png)](https://postimg.cc/bGML9BcL)
   
 ### Arquitectura del proyecto
        
