@@ -49,7 +49,11 @@ El repositorio contiene los siguientes archivos:
 [![mobile-3.png](https://i.postimg.cc/636xHhS7/mobile-3.png)](https://postimg.cc/WDyyz0sj)
      
 [![mobile-4.png](https://i.postimg.cc/sXndbhdT/mobile-4.png)](https://postimg.cc/ygSbZWNR)
-    
+  
+### Arquitectura del proyecto
+       
+[![arquitectura-web-potter.png](https://i.postimg.cc/28CqY2YQ/arquitectura-web-potter.png)](https://postimg.cc/yWr6Xhkx)
+              
 ### Módulo
 
 Este proyecto corresponde a la octava y novena semana del módulo de Frontend.
