@@ -18,7 +18,7 @@ El repositorio contiene los siguientes archivos:
 - Achivos json con la data.
 - Imágenes, animaciones y .mp3.
 - Archivos .js y carpeta componentes donde se subdivide .js de cada componente. Algunos de los componentes que presentamos en este proyecto son: Header, Hero, Carrousel, Magical Features, Seacher, Blog, Latests News, entre otros.
-- Archivos css (estilos).
+- Archivos css y sass (estilos).
 
 ### ¿Preparado para conocer más de nuestra propuesta?
 
