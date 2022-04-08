@@ -130,15 +130,15 @@ HTML
 CSS
 UX/UI
 Github Colaborativo
-
-```
-Todos los derechos reservados.
-```
-
+    
 ## Contribuciones
 
 Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" para poder utilizar y contribuir con el proyecto. Se recomienda el uso del proyecto únicamente para fines académicos y educativos. Prohibido su uso para fines comerciales.
-
+     
+```
+Todos los derechos reservados.
+``` 
+      
 ## Autores
 
 - **Cerpa Salas, Valeria**
