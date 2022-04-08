@@ -82,6 +82,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <th>Google Fonts</th>
         <th>Bootstrap</th>
         <th>Json</th>
+        <th>Lottie Files</th>
       </tr>
     </thead>
     <tbody>
@@ -117,7 +118,11 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" width="100%" />
-        </td>   
+        </td> 
+        <td>
+          <img
+            src="https://static6.lottiefiles.com/images/v3/lf-intergrations-logo.svg" width="100%" />
+        </td>
       </tr>
     </tbody>
 </table>
