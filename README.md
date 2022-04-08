@@ -120,7 +120,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         </td>   
       </tr>
     </tbody>
-  </table>
+</table>
   
 ### Temas vistos para el presente reto:
 
