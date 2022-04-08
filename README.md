@@ -26,8 +26,8 @@ El repositorio contiene los siguientes archivos:
     
 ## Instalación 💻
 - Ubicarse en la carpeta que contendrá el proyecto
-- Abrir terminal de comandos
-  - git clone https://github.com/darsico/wizardingworld-clone-react
+- Abrir la terminal de comandos
+  - git clone https://github.com/darsico/wizardingworld-clone-react.git
   - cd wizardingworld-clone-react
   - npm install
   - npm start
