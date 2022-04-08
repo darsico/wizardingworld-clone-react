@@ -23,6 +23,17 @@ El repositorio contiene los siguientes archivos:
 ### ¿Preparado para conocer más de nuestra propuesta?
 
 [![harry-potter-loading.gif](https://i.postimg.cc/cL1VqNNF/harry-potter-loading.gif)](https://postimg.cc/8j3yW9cv)
+    
+## Instalación 💻
+- Ubicarse en la carpeta que contendrá el proyecto
+- Abrir terminal de comandos
+  - git clone https://github.com/darsico/wizardingworld-clone-react
+  - cd wizardingworld-clone-react
+  - npm install
+  - npm start
+    - Levanta un servidor con la aplicación
+  - npm run build
+    - Genera un paquete para el despliegue en producción
 
 ## Vistas del proyecto
 
@@ -55,7 +66,66 @@ El repositorio contiene los siguientes archivos:
 ### Módulo
 
 Este proyecto corresponde a la octava y novena semana del módulo de Frontend.
-
+   
+## Tecnologías usadas
+Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecnologías durante el módulo Front End del Bootcamp:
+    
+<table>
+    <thead>
+      <tr>
+        <th>React</th>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>JavaScript</th>
+        <th>SASS</th>
+        <th>React Router</th>
+        <th>Axios</th>
+        <th>Google Fonts</th>
+        <th>Animate.css</th>
+        <th>SweetAler2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://i.postimg.cc/mgSDG9F2/css.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://iconape.com/wp-content/files/sm/371377/svg/371377.svg" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1200px-Axios_logo_%282017%29.svg.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Google_Fonts_logo.svg/2560px-Google_Fonts_logo.svg.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://i.postimg.cc/mkp40CNs/animate-css.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://sweetalert2.github.io/images/SweetAlert2.png" width="100%" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
 ### Temas vistos para el presente reto:
 
 React
