@@ -80,7 +80,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <th>SASS</th>
         <th>Axios</th>
         <th>Google Fonts</th>
-        <th>Jsons</th>
+        <th>Json</th>
       </tr>
     </thead>
     <tbody>
