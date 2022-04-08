@@ -80,6 +80,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <th>SASS</th>
         <th>Axios</th>
         <th>Google Fonts</th>
+        <th>Jsons</th>
       </tr>
     </thead>
     <tbody>
@@ -107,7 +108,11 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Google_Fonts_logo.svg/2560px-Google_Fonts_logo.svg.png" width="100%" />
-        </td>      
+        </td> 
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" width="100%" />
+        </td>   
       </tr>
     </tbody>
   </table>
