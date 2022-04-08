@@ -95,7 +95,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
           <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
         </td>
         <td>
-          <img src="https://w7.pngwing.com/pngs/804/171/png-transparent-web-development-cascading-style-sheets-css3-html-world-wide-web-blue-angle-web-design.png" width="100%" />
+          <img src="https://www.ntics.es/style/assets/images/icons/css3-512.png" width="100%" />
         </td>
         <td>
           <img
