@@ -107,11 +107,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Google_Fonts_logo.svg/2560px-Google_Fonts_logo.svg.png" width="100%" />
-        </td>
-        <td>
-          <img
-            src="https://i.postimg.cc/mkp40CNs/animate-css.png" width="100%" />
-        </td>  
+        </td>      
       </tr>
     </tbody>
   </table>
