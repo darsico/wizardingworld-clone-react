@@ -95,7 +95,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
           <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
         </td>
         <td>
-          <img src="https://www.ntics.es/style/assets/images/icons/css3-512.png" width="100%" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png" width="100%" />
         </td>
         <td>
           <img
