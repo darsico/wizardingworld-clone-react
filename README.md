@@ -78,11 +78,8 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <th>CSS</th>
         <th>JavaScript</th>
         <th>SASS</th>
-        <th>React Router</th>
         <th>Axios</th>
         <th>Google Fonts</th>
-        <th>Animate.css</th>
-        <th>SweetAler2</th>
       </tr>
     </thead>
     <tbody>
