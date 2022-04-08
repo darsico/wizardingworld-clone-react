@@ -96,7 +96,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         </td>
         <td>
           <img
-            src="https://i.postimg.cc/0ytvRspm/js.jpg" width="100%" />
+            src="https://i.blogs.es/544e7d/650_1000_javascript_logo/1366_2000.png" width="100%" />
         </td>
         <td>
           <img src="https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png" width="100%" />
