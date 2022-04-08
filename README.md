@@ -112,7 +112,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         </td>
         <td>
           <img
-            src="https://raw.githubusercontent.com/themedotid/bootstrap-icon-css/master/docs/bootstrap-icon-css.png" width="100%" />
+            src="https://ironsolutionsit.com.ar/img/works/bootstrap.jpg" width="100%" />
         </td>
         <td>
           <img
