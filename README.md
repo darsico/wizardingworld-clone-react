@@ -96,7 +96,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         </td>
         <td>
           <img
-            src="![image](https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png)" width="100%" />
+            src="https://i.postimg.cc/pTWLQZYY/js.jpg" width="100%" />
         </td>
         <td>
           <img src="https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png" width="100%" />
