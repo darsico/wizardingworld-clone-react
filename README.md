@@ -83,6 +83,7 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <th>Bootstrap</th>
         <th>Json</th>
         <th>Lottie Files</th>
+        <th>Netlify</th>
       </tr>
     </thead>
     <tbody>
@@ -122,6 +123,10 @@ Para desarrollar este proyecto, hemos utilizado los siguientes lenguajes y tecno
         <td>
           <img
             src="https://static6.lottiefiles.com/images/v3/lf-intergrations-logo.svg" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C560BAQG8HTJEoqPI4Q/company-logo_200_200/0/1625843974996?e=2159024400&v=beta&t=VruK-Bp_G73A3mknEVm5vhouTo6kqn79zJ8BvQgRvpo" width="100%" />
         </td>
       </tr>
     </tbody>
